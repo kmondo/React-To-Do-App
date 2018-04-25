@@ -36,7 +36,7 @@ class App extends Component {
 
   deleteTodo(index) {
     const deleteATodo = this.state.todos.filter();
-    const todo = todos[index];
+    const todo = deleteATodo[index];
     todo.isDeleted = todo.isDeleted ? false : true;
     this.setState({deleteATodo});
   }
@@ -56,5 +56,5 @@ class App extends Component {
       </div>
     );
   }
-
+}
 export default App;
